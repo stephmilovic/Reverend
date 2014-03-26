@@ -470,6 +470,10 @@ span.amp {
 .text-right {
   text-align: right; }
 
+p.home {
+  margin-left: auto;
+  margin-right: auto; }
+
 .alert-help, .alert-info, .alert-error, .alert-success {
   margin: 10px;
   padding: 5px 18px;
@@ -717,7 +721,8 @@ h4, .h4 {
   color: #f5f2ee;
   text-align: center;
   font-size: 2em;
-  margin-top: 32%; }
+  margin-top: 32%;
+  margin-bottom: 5%; }
 
 h5, .h5 {
   font-size: 0.846em;
@@ -728,6 +733,17 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
+p.home {
+  width: 20em;
+  padding: .6em;
+  margin-bottom: 5%;
+  color: #f5f2ee;
+  font-size: .8em;
+  font-weight: 100;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  text-align: center;
+  border: 1px solid #f5f2ee; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -1084,6 +1100,12 @@ MISC FONT CLASSES
 .cursive {
   font-family: "Parisienne", Helvetica, Arial, sans-serif; }
 
+/********************
+MISC IMG CLASSES
+********************/
+#revimg {
+  display: none; }
+
 /*
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -1126,6 +1148,9 @@ tweeners.
     font-size: 3em;
     line-height: 0em;
     margin-bottom: .8em; }
+
+  p.home {
+    font-size: .9em; }
 
   /*********************
   NAVIGATION STYLES
@@ -1213,6 +1238,9 @@ tweeners.
       clear: both; }
 
   /* end .entry-content */
+  #revimg {
+    display: block; }
+
   /*********************
   FOOTER STYLES
   *********************/
@@ -1344,7 +1372,11 @@ you can add resource intensive styles.
     width: 100%; }
 
   h4, .h4 {
-    font-size: 4.5em; }
+    font-size: 4.5em;
+    margin-bottom: 2%; }
+
+  p.home {
+    font-size: 1.1em; }
 
   /*********************
   NAVIGATION STYLES

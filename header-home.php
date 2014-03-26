@@ -46,7 +46,7 @@
 
 			<header class="header" role="banner">
 				<h4>You may <span class="cursive">kiss</span> the bride.</h4>
-						
+				<p class="home">Meet Your Chicago Wedding Officiant</p>		
 				<span class="inner"></span>
 
 					<?php //<span id="head-img" role="img" aria-label-"Chicago wedding officiant"> ?>

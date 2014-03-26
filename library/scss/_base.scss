@@ -154,6 +154,7 @@ h4, .h4 {
 	text-align:center;
 	font-size: 2em;
 	margin-top: 32%;
+	margin-bottom: 5%;
 }
 
 h5, .h5 {
@@ -170,6 +171,19 @@ HEADER STYLES
 .header {}
 
 	#logo {}
+
+p.home{
+	@extend %centered;
+	width: 20em;
+	padding: .6em;
+	margin-bottom: 5%;
+	color:$offwhite;
+	font-size: .8em;
+	font-weight: 100;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	text-align: center;
+	border: 1px solid $offwhite;
+}
 
 /*********************
 NAVIGATION STYLES
@@ -850,3 +864,13 @@ MISC FONT CLASSES
 .cursive {
 	font-family: $cursive;
 }
+
+/********************
+MISC IMG CLASSES
+********************/
+
+#revimg {
+	display:none;
+}
+
+

@@ -8,11 +8,11 @@ Template Name: Custom Home Page
 
 				<div id="inner-content" class="wrap clearfix">
 
-						<div id="main" class="eightcol first clearfix" role="main">
+						<div id="main" role="main">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-							<article id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
+							<article class="eightcol first clearfix" id="post-<?php the_ID(); ?>" <?php post_class( 'clearfix' ); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
 
 								<header class="article-header">
 									<h2 class="home">Reverend John Drabik</h2>
@@ -26,14 +26,17 @@ Template Name: Custom Home Page
 									<?php the_content(); ?>
 								</section>
 
+
 								<footer class="article-footer">
 									<p class="clearfix"><?php the_tags( '<span class="tags">' . __( 'Tags:', 'bonestheme' ) . '</span> ', ', ', '' ); ?></p>
 
 								</footer>
 
-								<?php comments_template(); ?>
+							
 
 							</article>
+							<img class="fourcol second clearfix" id="revimg" src="http://lorempixel.com/g/200/500">
+
 
 							<?php endwhile; else : ?>
 

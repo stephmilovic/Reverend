@@ -38,6 +38,10 @@ h2.home {
 	margin-bottom: .8em;
 }
 
+p.home{
+	font-size: .9em;
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -173,6 +177,10 @@ POSTS & CONTENT STYLES
 	}
 			
 } /* end .entry-content */
+
+#revimg {
+	display:block;
+}
 
 /*********************
 FOOTER STYLES
