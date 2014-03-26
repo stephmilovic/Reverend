@@ -1,0 +1,25 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop. 
+
+******************************************************************/
+
+/********* HEADER IMAGE ********/
+.header { 
+	background: transparent url('http://sam.local:5757/wp-content/uploads/2014/03/kiss1240.jpg') center center no-repeat;
+	display: inline-block;
+	z-index: 1;
+	background-size: cover;
+	/*background-position: 50% 50%;*/
+	width: 100%;
+}
+
+
+h4, .h4 {
+	font-size: 6em;
+}
