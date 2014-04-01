@@ -22,9 +22,11 @@ html, body {
 body {
 	font-family: $serif;
 	font-size: 100%;
-	line-height: 1.5;
+	line-height: 2;
 	background: $offwhite; 
-	color: $black;
+	color: $grey;
+	font-size: 11pt;
+	font-weight: 300;
 }
 
 /********************
@@ -112,7 +114,9 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	font-family: $sans-serif;
 	text-rendering: optimizelegibility;
-	font-weight: 500;
+	font-weight: 100;
+	color: $black;
+
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -137,11 +141,14 @@ h2, .h2 {
 
 h1.home{
 	font-size: 1.5em;
+	text-align: center;
 }
 h2.home {
 	font-size: 2em;
 	line-height: 0em;
 	margin-bottom: 1em;
+	text-align: center;
+
 }
 
 h3, .h3 {
@@ -809,6 +816,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
+	background-color: $black;
 }
 
 	/*
@@ -865,6 +873,21 @@ MISC FONT CLASSES
 	font-family: $cursive;
 }
 
+a.morelink{
+	text-decoration:none;
+	outline:none;
+
+}
+
+.morecontent span{display:none}
+
+.comment {
+    margin: 10px;
+}
+
+
+
+
 /********************
 MISC IMG CLASSES
 ********************/
@@ -873,4 +896,65 @@ MISC IMG CLASSES
 	display:none;
 }
 
+.homeimgcirc {
+	margin-right: auto !important;
+	margin-left: auto !important;
+	display:block;
+
+}
+
+/*****************
+SERVICES
+*****************/
+#services {
+	background-color: #2a2a2a;
+	background: url('http://sam.local:5757/wp-content/uploads/2014/03/rings.jpg') center center;
+	background-size: cover;
+	color: $offwhite;
+	overflow: visible;
+	padding: 70px 0 70px 0;
+	position:relative;
+	text-align: center;
+	width: 100%;
+	float: left;
+
+		h3 {
+			font-size: 3.5em;
+			margin: 0 auto 40px auto;
+			line-height: 1;
+			display: table;
+			z-index: 10000;
+			position: relative;
+			color: $offwhite;
+
+		}
+
+		h5 {
+			color: $offwhite;
+		}
+
+		.overlay {
+			background: rgba(0, 0, 0, 0.1);
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			}
+
+		.quarter {
+			width: 50%;
+			float: left;
+			z-index: 10000;
+		}
+		.quarter.last{
+				margin-bottom: 0;
+			}
+
+}
+
+
+.clear{
+	clear: both;
+}
 

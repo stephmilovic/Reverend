@@ -31,11 +31,14 @@ h4, .h4 {
 
 h1.home{
 	font-size: 2em;
+	text-align: left;
 }
 h2.home {
-	font-size: 3em;
+	font-size: 2.9em;
 	line-height: 0em;
 	margin-bottom: .8em;
+	text-align: left;
+
 }
 
 p.home{
@@ -178,8 +181,10 @@ POSTS & CONTENT STYLES
 			
 } /* end .entry-content */
 
-#revimg {
-	display:block;
+
+.homeimgcirc {
+	float:right;
+	margin: 0 0 2em 2em !important;
 }
 
 /*********************
@@ -196,3 +201,14 @@ do they need tweaking?
 	}
 } /* end .footer-links */
 			
+#services .quarter.last {
+	width: 33.333%;
+}
+
+#hidden-q{
+	display:none;
+}
+
+.clear {
+clear: none;
+}

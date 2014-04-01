@@ -327,12 +327,14 @@ h4, .h4 {
   font-size: 3em; }
 
 h1.home {
-  font-size: 2em; }
+  font-size: 2em;
+  text-align: left; }
 
 h2.home {
-  font-size: 3em;
+  font-size: 2.9em;
   line-height: 0em;
-  margin-bottom: .8em; }
+  margin-bottom: .8em;
+  text-align: left; }
 
 p.home {
   font-size: .9em; }
@@ -423,8 +425,9 @@ POSTS & CONTENT STYLES
     clear: both; }
 
 /* end .entry-content */
-#revimg {
-  display: block; }
+.homeimgcirc {
+  float: right;
+  margin: 0 0 2em 2em !important; }
 
 /*********************
 FOOTER STYLES
@@ -434,6 +437,15 @@ check your menus here. do they look good?
 do they need tweaking?
 */
 /* end .footer-links */
+#services .quarter.last {
+  width: 33.333%; }
+
+#hidden-q {
+  display: none; }
+
+.clear {
+  clear: none; }
+
 /******************************************************************
 Site Name:
 Author:
@@ -587,6 +599,24 @@ mobile. Make sure to double check these!
   */ }
 
 /* end .footer-links */
+/*********************
+MISC IMG STYLES
+*********************/
+#revimg {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: 10em; }
+
+.homeimgcirc {
+  display: none; }
+
+/*********************
+SERVICES
+*********************/
+#services h3 {
+  margin-bottom: 150px; }
+
 /******************************************************************
 Site Name: 
 Author: 
@@ -608,6 +638,19 @@ be seen on the Desktop.
 
 h4, .h4 {
   font-size: 6em; }
+
+#services .quarter {
+  margin-top: 50px;
+  position: relative;
+  overflow: visible;
+  cursor: pointer;
+  width: 20%;
+  margin: 0;
+  float: left;
+  text-align: center; }
+
+#services .quarter.last {
+  width: 20%; }
 
 /* 
 you can call the larger styles if you want, but there's really no need 

@@ -35,7 +35,7 @@ Template Name: Custom Home Page
 							
 
 							</article>
-							<img class="fourcol second clearfix" id="revimg" src="http://lorempixel.com/g/200/500">
+
 
 
 							<?php endwhile; else : ?>
@@ -55,10 +55,45 @@ Template Name: Custom Home Page
 							<?php endif; ?>
 
 						</div>
-
+					<div class="fourcol clearfix">
+						<img id="revimg" src="http://lorempixel.com/g/200/500">
+					</div>
 
 				</div>
-
+				<div id="services">
+					<div class="overlay"></div>
+					<div class="wrap">
+						<h3>Services</h3>
+						<div class="quarter">
+							<img src="http://sam.local:5757/wp-content/uploads/2014/03/wedding-officiant-chicago.png">
+							<h5>Personally <br>Designed Ceremony</h5>
+						</div>
+						<div class="quarter">
+							<img src="http://sam.local:5757/wp-content/uploads/2014/03/wedding-officiant-chicago-1.png">
+							<h5>One On One <br>Meetings</h5>
+						</div>
+						<div class="quarter last clear">
+							<img src="http://sam.local:5757/wp-content/uploads/2014/03/wedding-officiant-chicago-2.png">
+							<h5>Venue Site <br>Inspection</h5>
+						</div>
+						<div class="quarter last" id="hidden-q">
+							<img src="http://sam.local:5757/wp-content/uploads/2014/03/wedding-officiant-chicago-2.png">
+							<h5>Religious & Secular <br>Options</h5>
+						</div>
+						<div class="quarter last">
+							<img src="http://sam.local:5757/wp-content/uploads/2014/03/wedding-officiant-chicago-3.png">
+							<h5>Rehearsal <br>Ceremony</h5>
+						</div>
+						<div class="quarter last">
+							<img src="http://sam.local:5757/wp-content/uploads/2014/03/wedding-officiant-chicago-4.png">
+							<h5>Wedding <br>Ceremony</h5>
+						</div>
+					</div>
+					</div>
+				</div>
 			</div>
+
+
+
 
 <?php get_footer(); ?>

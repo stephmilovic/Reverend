@@ -23,3 +23,21 @@ be seen on the Desktop.
 h4, .h4 {
 	font-size: 6em;
 }
+
+
+#services {
+	.quarter {
+			margin-top: 50px;
+			position: relative;
+			overflow: visible;
+			cursor: pointer;
+			width: 20%;
+			margin: 0;
+			float: left;
+			text-align: center;
+		}
+}
+
+#services .quarter.last {
+		width: 20%;
+	}
