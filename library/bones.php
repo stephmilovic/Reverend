@@ -147,6 +147,8 @@ function bones_scripts_and_styles() {
 		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . 'http://code.jquery.com/jquery-1.10.2.min.js', array( 'jquery' ), '', true );
 		wp_register_script( 'bones-js', get_stylesheet_directory_uri() . 'http://www.minimit.com/archive/minimit-anima.min.js', array( 'jquery' ), '', true );
 		wp_register_script( 'slick-js', get_stylesheet_directory_uri() . '/library/js/jquery.slicknav.min.js', array( 'jquery' ), '', true );
+		wp_register_script( 'scroll-js', get_stylesheet_directory_uri() . '/scrollmagic/js/jquery.scrollmagic.min.js', array( 'jquery' ), '', true );
+		wp_register_script( 'scroll-js', get_stylesheet_directory_uri() . '/scrollmagic/js/TweenMax.min.js', array( 'jquery' ), '', true );
 
 
 

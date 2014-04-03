@@ -617,7 +617,11 @@ body {
   background: #f5f2ee;
   color: #666666;
   font-size: 11pt;
-  font-weight: 300; }
+  font-weight: 300;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -793,7 +797,8 @@ and more scalable.
 
 /* end .nav */
 #inner-header {
-  width: 100%; }
+  width: 100%;
+  z-index: 10000; }
 
 #menu-icon {
   width: 40px;
@@ -1168,6 +1173,12 @@ SERVICES
 .clear {
   clear: both; }
 
+#menu-footer {
+  display: none; }
+
+.scrollmagic-pin-spacer {
+  min-height: 47px !important; }
+
 /*
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -1193,7 +1204,9 @@ tweeners.
   ******************************************************************/
   /********* HEADER IMAGE ********/
   .header {
-    background: transparent url("http://sam.local:5757/wp-content/uploads/2014/03/kiss768.jpg") center center no-repeat;
+    background: url("http://sam.local:5757/wp-content/uploads/2014/03/kiss768.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
     display: inline-block;
     z-index: 1;
     background-size: cover;
@@ -1321,7 +1334,10 @@ tweeners.
     display: none; }
 
   .clear {
-    clear: none; } }
+    clear: none; }
+
+  #menu-footer {
+    display: block; } }
 /*
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and

@@ -27,6 +27,10 @@ body {
 	color: $grey;
 	font-size: 11pt;
 	font-weight: 300;
+	-webkit-transition:all .5s ease-in-out;
+	-moz-transition:all .5s ease-in-out;
+	-o-transition:all .5s ease-in-out;
+	transition:all .5s ease-in-out;
 }
 
 /********************
@@ -279,6 +283,7 @@ and more scalable.
 
 #inner-header{
 	width: 100%;
+	z-index: 10000;
 }
 
 #menu-icon {
@@ -958,3 +963,10 @@ SERVICES
 	clear: both;
 }
 
+#menu-footer{
+	display:none;
+}
+
+.scrollmagic-pin-spacer{
+	min-height: 47px !important;
+}

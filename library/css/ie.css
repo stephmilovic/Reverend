@@ -316,7 +316,9 @@ upon your base.scss styles.
 ******************************************************************/
 /********* HEADER IMAGE ********/
 .header {
-  background: transparent url("http://sam.local:5757/wp-content/uploads/2014/03/kiss768.jpg") center center no-repeat;
+  background: url("http://sam.local:5757/wp-content/uploads/2014/03/kiss768.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
   display: inline-block;
   z-index: 1;
   background-size: cover;
@@ -445,6 +447,9 @@ do they need tweaking?
 
 .clear {
   clear: none; }
+
+#menu-footer {
+  display: block; }
 
 /******************************************************************
 Site Name:
